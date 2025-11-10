@@ -9,22 +9,34 @@
         
     </head>
     <body>
-        <div class="wrap">
+        <!-- Top navigation bar -->
+        <nav class="top-nav" aria-label="Main navigation">
+            <ul class="nav-list">
+                <li><a href="#top" aria-current="page">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="wrap" id="top">
+
             <div class="card">
-                <header>
-                    <img src="images/image.jpg" alt="Profile  of Sakiya Sulthana" width="120" height="120">
-                    <div>
+                <header id="about">
+                    <img src="images/image.jpg" alt="Photo of Sakiya Sulthana" width="120" height="120">
+
+                    <div class="header-main">
                         <h1>Sakiya Sulthana</h1>
-                        <div>Frontend developer — learning to build accessible and interactive web apps</div>
-                        <div>Contact: <a href="mailto:sakiya123@gmail.com">sakiya123@gmail.com</a>
-                        <div>
-                            <p>Find me online:</p>
-                            <ul>
-                                <li><a href="https://github.com/sakiya-sulthana" target="_blank" rel="noopener noreferrer">GitHub — sakiya-sulthana</a></li>
-                                <li><a href="https://css-tricks.com/complete-guide-to-flexbox/" target="_blank" rel="noopener noreferrer">A blog post I like: A Complete Guide to Flexbox (CSS-Tricks)</a></li>
-                            </ul>
-                        </div>
+                        <div class="subtitle">Frontend developer — learning to build accessible and interactive web apps</div>
+                        <div class="contact-line">Contact: <a href="mailto:sakiya123@gmail.com">sakiya123@gmail.com</a></div>
+
+                        <p>Find me online:</p>
+                        <ul>
+                            <li><a href="https://github.com/sakiya-sulthana" target="_blank" rel="noopener noreferrer">GitHub — sakiya-sulthana</a></li>
+                            <li><a href="https://css-tricks.com/complete-guide-to-flexbox/" target="_blank" rel="noopener noreferrer">A blog post I like: A Complete Guide to Flexbox (CSS-Tricks)</a></li>
+                        </ul>
                     </div>
+
+                    <!-- navigation moved to top of page -->
                 </header>
              <main>
               <section id="contact">
