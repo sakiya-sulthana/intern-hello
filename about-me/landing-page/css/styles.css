@@ -31,6 +31,36 @@
 	max-width: 900px;
 }
 
+/* Title row: place title and small nav side-by-side on wide screens */
+.title-row{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	gap:1rem;
+	width:100%;
+}
+
+.nav-inline{
+	list-style:none;
+	margin:0;
+	padding:0;
+	display:flex;
+	gap:0.5rem;
+	align-items:center;
+}
+
+.nav-inline li{margin:0}
+
+.btn.small{
+	padding:0.35rem 0.6rem;
+	font-size:0.9rem;
+	border-radius:6px;
+}
+
+.title-row .btn.small{ 
+	font-weight:600;
+}
+
 .hero h1{
 	font-size: clamp(1.6rem, 3.5vw, 2.8rem);
 	line-height: 1.05;
@@ -114,8 +144,6 @@
 	font-size: 0.95rem;
 	margin: 0;
 }
-
-
 .site-footer{
 	padding: 1.25rem 0;
 	background: #f3f4f6;
@@ -126,13 +154,22 @@
 
 
 @media (max-width: 900px){
-	
+    
 	.hero{padding:3rem 0}
+	
+	.hero-inner{ text-align:center }
+	.title-row{ flex-direction:column; align-items:center; }
 }
 
 
 @media (min-width: 901px){
 	.feature{ flex: 1 1 calc((100% - (2 * 1.25rem)) / 3); }
+}
+
+
+@media (max-width: 768px){
+	.feature-list{ flex-direction:column; }
+	.feature{ flex: 1 1 100%; }
 }
 
 @media (max-width: 620px){
