@@ -144,6 +144,10 @@
 	font-size: 0.95rem;
 	margin: 0;
 }
+
+.hidden{
+	display:none;
+}
 .site-footer{
 	padding: 1.25rem 0;
 	background: #f3f4f6;
