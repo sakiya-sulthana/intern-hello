@@ -1,0 +1,84 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Page Background & Font */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #1e88e5, #29b6f6, #80deea);
+  background-size: 400% 400%;
+  animation: gradientBG 12s ease infinite;
+  color: #fff;
+}
+
+/* Background Animation */
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Title */
+h2 {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+/* Event List Layout */
+#event-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+/* Event Card Style */
+#event-list li {
+  background: rgba(255, 255, 255, 0.95);
+  margin: 15px 0;
+  padding: 22px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  backdrop-filter: blur(5px);
+  color: #333;
+  border-left: 10px solid #ff9800;
+}
+
+/* Hover animation */
+#event-list li:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+}
+
+/* Event Title */
+#event-list strong {
+  display: block;
+  font-size: 22px;
+  font-weight: 600;
+  color: #e65100;
+  margin-bottom: 10px;
+}
+
+/* Event Details */
+.event-info {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #444;
+}
+
+/* Line Styling */
+#event-list li hr {
+  border: none;
+  height: 1px;
+  background: #ddd;
+  margin: 10px 0;
+}
+
+

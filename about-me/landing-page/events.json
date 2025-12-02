@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "name": "Tech Conference",
+        "date": "2026-04-12",
+        "location": "New York Convention Center"
+    },
+    {
+        "id": 2,
+        "name": "Community Cleanup Day",
+        "date": "2026-04-20",
+        "location": "Central Park"
+    },
+    {
+        "id": 3,
+        "name": "Online Marketing Webinar",
+        "date": "2026-04-25",
+        "location": "Virtual Event"
+    },
+    {
+        "id": 4,
+        "name": "Spring Music Festival",
+        "date": "2026-05-03",
+        "location": "Riverside Arena"
+    },
+    {
+        "id": 5,
+        "name": "Coding Bootcamp Workshop",
+        "date": "2026-05-10",
+        "location": "Tech Hub Innovation Center"
+    },
+    {
+        "id": 6,
+        "name": "Charity Run",
+        "date": "2026-05-18",
+        "location": "City Stadium"
+    },
+    {
+        "id": 7,
+        "name": "Startup Pitch Night",
+        "date": "2026-05-24",
+        "location": "Innovation Hall"
+    }
+]
+
+

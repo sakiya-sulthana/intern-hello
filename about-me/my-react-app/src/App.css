@@ -1,0 +1,95 @@
+.feature-section {
+min-height: 100vh;
+width: 100%;
+padding: 60px 20px;
+background: linear-gradient(135deg, #6a11cb, #2575fc, #00f2fe, #fbc2eb);
+background-size: 400% 400%;
+animation: smoothBG 14s ease infinite;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+/* Smooth background motion */
+@keyframes smoothBG {
+0% { background-position: 0% 50%; }
+50% { background-position: 100% 50%; }
+100% { background-position: 0% 50%; }
+}
+
+/* 🌟 Title Styling */
+.section-title {
+font-size: 42px;
+font-weight: 900;
+color: #ffffff;
+margin-bottom: 10px;
+letter-spacing: 1px;
+}
+
+/* Subtitle */
+.section-subtitle {
+color: #eef6ff;
+font-size: 18px;
+margin-bottom: 40px;
+}
+
+/* 📦 Perfect card alignment layout */
+.features-grid {
+display: flex;
+gap: 35px;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+width: 100%;
+}
+
+/* 🧊 Glass Effect Feature Card */
+.feature-card {
+width: 290px;
+padding: 28px;
+background: rgba(255, 255, 255, 0.18);
+backdrop-filter: blur(14px);
+border-radius: 22px;
+text-align: center;
+transition: 0.4s ease;
+box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+border: 1px solid rgba(255,255,255,0.4);
+}
+
+/* 🪄 Hover Effect */
+.feature-card:hover {
+transform: translateY(-12px) scale(1.05);
+box-shadow: 0 15px 45px rgba(0, 0, 0, 0.35);
+}
+
+/* Image */
+.feature-card img {
+  width: 95px;                  /* adjust size */
+  height: 95px;
+  border-radius: 50%;           /* round image */
+  border: 4px solid white;      /* stand out on glass */
+  margin-bottom: 15px;          /* space below image */
+  object-fit: cover;            /* scale correctly */
+  background-color: rgba(255,255,255,0.8); /* optional: makes transparent images visible */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.25); /* depth */
+}
+
+
+
+
+/* Card Title */
+.feature-card h3 {
+font-size: 24px;
+font-weight: 800;
+margin-bottom: 12px;
+color: #ffffff;
+}
+
+/* Card Description */
+.feature-card p {
+font-size: 16px;
+color: #f1f1f1;
+line-height: 1.6;
+}
+
